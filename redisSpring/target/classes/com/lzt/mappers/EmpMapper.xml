@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzt.dao.EmpDao">
+
+	<resultMap type="com.lzt.entity.Emp" id="EmpResult">
+		<result property="ename" column="ename"/>
+		<result property="userName" column="userName"/>
+		<result property="job" column="job"/>
+		<result property="mgr" column="mgr"/>
+		<result property="sal" column="sal"/>
+		<result property="comm" column="comm"/>
+		<result property="deptno" column="deptno"/>
+		<result property="hiredate" column="hiredate"/>
+	</resultMap>
+
+	<select id="getEmpList" resultMap="EmpResult" parameterType="Integer">
+		select * from emp where empno=#{empno};
+	</select>
+	
+	<select id="getList" resultMap="EmpResult">
+		select * from emp;
+	</select>
+	
+	<update id="updateById" parameterType="Integer">
+		update emp set sal = 1000 where empno=#{empno}
+	</update>
+	
+	
+	
+	
+</mapper>

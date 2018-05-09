@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://E:/eclipse workspace/redisSpring/src/main/java/com/lzt/dao/AbstractBaseRedisDao.java" charset="UTF-8" />
+    <file url="file://E:/eclipse workspace/redisSpring/src/test/java/redisSpring/Test01.java" charset="GBK" />
+    <file url="file://E:/eclipse workspace/redisSpring/src/test/java/redisSpring/Test02.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
